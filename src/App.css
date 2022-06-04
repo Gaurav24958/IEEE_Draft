@@ -4,7 +4,47 @@
 }.App {
   text-align: center;
 }
-
+.dark{
+  height: 50px;
+  width: 50px;
+  /* position: absolute; */
+  background-color: white;
+  padding: 5px;
+  border-radius: 25px;
+  left: 50%;
+  transform: translate(250%);
+  
+}
+.date{
+  display: flex;
+  color: white;
+}
+.date h3{
+  padding-left: 135px;
+}
+.loc{
+  height: 50px;
+  width: 50px;
+  left: 60%;
+  display: flex;
+  transform: translate(120%);
+  /* position: absolute; */
+  background-color: white;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+.loc h3{
+  padding-left:35px;
+  
+}
+.lastsec{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 65%;
+  /* left:35%; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -66,7 +106,7 @@
 
 .bgimag{
   /* background-image: */
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../public/Images/background.jpeg');;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../public/Images/background.jpeg');
   background-blend-mode: darken;
   filter: blur(2px);
   height: 100vh;
@@ -75,7 +115,7 @@
 }
 
 .container2{
-  background-color: lightgrey;
+  background-color:white;
   display: flex;
   /* padding-bottom: 20px; */
   
@@ -128,6 +168,9 @@ h5{
 }
 
 .container3{
+  background-color: #182A54;
+  color: white;
+  height: 80vh;
   padding-top: 20px;
 }
 .containercontent{
@@ -144,35 +187,82 @@ h5{
 .container4{
   display: flex;
   flex-direction: column;
+  height: 260px;
   background-color: lightgrey;
-  padding: 20px 0px 0px 15px;
+  /* padding: 20px 0px 0px 15px; */
   color: black;
+}
+.heading{
+  /* padding-left: 1%; */
+  padding-left:25px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+span{
+  /* background-color: #0ba1f9; */
+  /* background-image: linear-gradient(45deg, #f3ec78, #af4261) */
+  /* color: red; */
+  background-color: #f3ec78;
+  background-image: linear-gradient(180deg,darkorange, white,green);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+.bars{
+  padding:0px 0px 15px 0px;
+  display: flex;
+  /* background-color: #0ba1f9; */
+  /* align-items: flex-end;
+  justify-content: flex-end;
+  justify-items: flex-end; */
+  left: 70%;  
 }
 .containerup{
   /* background-color: red; */
+  
   display: flex;
+  /* background-image: ; */
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../public/Images/COEP.jpeg');
+  /* height: 100vh; */
+  /* filter: blur(2px); */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 0.5;
 }
 .leftcontainerup{
   /* background-color: white; */
+  position: absolute;
+  /* top: 30%;
+  left: 10%; */
+  right: 50%;
+  transform: translate(2%,3%);
+  color: white;
+  /* height: 100vh; */
+  z-index: 5;
   display: flex;
   flex-direction: column;
+  /* padding-bottom: 15px; */
   flex:0.5;
 }
 .containerdown{
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   /* flex: 0.5; */
   /* background-color: red; */
 }
 .rightcontainerdown{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* flex-flow: column wrap; */
   /* align-content: flex-end; */
   /* align-items: flex-end; */
-  flex: 0.5;
-  transform: translate(100%);
+  /* flex: 0.5; */
+  /* transform: translate(100%); */
   /* background-color: aqua; */
   /* justify-content: flex-end; */
 }
@@ -183,7 +273,7 @@ h5{
 .ticket{
   /* padding: 45px 0px 0px 25px; */
   height: 80vh;
-  background-color: antiquewhite;
+  background-color:white;
 }
 .tickethead{
   padding: 35px 0px 0px 15px;
@@ -218,6 +308,8 @@ h5{
 }
 .lowersponsor{
   background-color: aliceblue;
+  border: 3px white solid;
+  border-radius: 24px;
   display: flex;
   flex: 1;
   justify-content: center;

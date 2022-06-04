@@ -7,10 +7,16 @@ export default function Navbar() {
                 <a className="navbar-brand" >
                     <img src="./Images/Logo.png" className="Logo" alt="Image" />
                 </a>
-
-                
-
             </nav>
+            
+            <ul className='navbar bars'>
+                <li className='heading'>Home</li>
+                <li className='heading'>About</li>
+                <li className='heading'>Venue</li>
+                <li className='heading'>Sponsors</li>
+                <li className='heading'>Speakers</li>
+                
+            </ul>
         </div>
     )
 }

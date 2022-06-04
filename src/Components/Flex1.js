@@ -24,7 +24,19 @@ export default function Flex1() {
         <div className="line5">
           <h2>CONGRESS'22</h2>
         </div>
+      </div>
 
+      <div className="lastsec">
+        <div className="date">
+          <img src="../Images/location-dot-solid.svg" alt="" srcset="" className='dark' />
+          <h3>College of engineering,Pune</h3>
+
+        </div>
+        <div className="loc">
+          <img src="../Images/calendar.svg" alt="" srcset="" />
+          <h3>May 22nd,2022</h3>
+
+        </div>
       </div>
 
 
