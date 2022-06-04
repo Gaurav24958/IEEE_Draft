@@ -1,4 +1,7 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}.App {
   text-align: center;
 }
 
@@ -28,6 +31,129 @@
   color: #61dafb;
 }
 
+.Logo{
+  width: 300px;
+  padding-left: 15px;  
+}
+
+.container1{
+  font-family: 'Times New Roman', Times, serif;
+  /* font-weight: bold; */
+  /* background-color: lightcyan; */
+  display: flex;
+  flex-direction: column;
+  padding: 125px 0px 0px 100px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  height: 79vh;
+    
+}
+
+.container2{
+  background-color: lightgrey;
+  display: flex;
+  padding-bottom: 20px;
+}
+.leftcontainer{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  flex: 0.5;
+  padding: 15px 0px 0px 55px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.leftcontainer h4{
+  font-size: 20px;
+  /* color: aliceblue; */
+}
+.leftcontainer h2{
+  font-size: 45px;
+}
+h5{
+  font-family: 'Times New Roman', Times, serif;
+}
+.topcont{
+  padding-top: 15px;  
+}
+.bottomcont{
+  padding-top: 15px;
+}
+.theme{
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+}
+
+
+
+.line5 h2{
+  color: blue;
+  /* font-weight: bold; */
+  /* font-size: 25px; */
+}
+
+.container3{
+  padding-top: 20px;
+}
+.containercontent{
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+  text-align: center;
+  height: 85vh;
+}
+
+.containerhead{
+  text-align: center;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 20px 0px 0px 15px;
+  color: black;
+}
+.containerup{
+  /* background-color: red; */
+  display: flex;
+  flex: 0.5;
+}
+.leftcontainerup{
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  flex:0.5;
+}
+.containerdown{
+  display: flex;
+  /* flex-direction: column; */
+  /* flex: 0.5; */
+  /* background-color: red; */
+}
+.rightcontainerdown{
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: column wrap; */
+  align-content: flex-end;
+  /* align-items: flex-end; */
+  flex: 0.5;
+  background-color: aqua;
+  /* justify-content: flex-end; */
+}
+.ticket{
+  /* padding: 45px 0px 0px 25px; */
+  height: 80vh;
+  background-color: antiquewhite;
+}
+.tickethead{
+  padding: 35px 0px 0px 15px;
+}
+.ticketcontent{
+  text-align: center;
+  padding-top: 100px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
