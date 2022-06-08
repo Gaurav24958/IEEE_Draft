@@ -4,6 +4,9 @@
 }.App {
   text-align: center;
 }
+.month{
+  padding-right: 10px;
+}
 .dark{
   height: 50px;
   width: 50px;
@@ -16,8 +19,10 @@
   
 }
 .date{
+  
   display: flex;
   color: white;
+  padding-left:15px ;
 }
 .date h3{
   padding-left: 135px;
@@ -117,9 +122,9 @@
 .container2{
   background-color:white;
   display: flex;
-  /* padding-bottom: 20px; */
   
-  height: 90vh;
+  /* padding-bottom: 20px; */
+  height: 70vh;
 }
 .leftcontainer{
   display: flex;
@@ -285,7 +290,7 @@ span{
 .mainsponsor{
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 20vh;
 }
 .Sponsorhead{
   padding-top: 10px;
@@ -314,6 +319,7 @@ span{
   flex: 1;
   justify-content: center;
   align-items: center;
+  /* height: 20vh; */
   padding: 25px 0px 5px 0px;
 
 }
@@ -330,6 +336,8 @@ span{
 
 .footermain{
   display: flex;
+  background-color: #182a54;
+  color: white;
   
 }
 .footerleft{

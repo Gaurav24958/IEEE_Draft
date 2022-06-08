@@ -34,7 +34,7 @@ export default function Flex1() {
         </div>
         <div className="loc">
           <img src="../Images/calendar.svg" alt="" srcset="" />
-          <h3>May 22nd,2022</h3>
+          <h3 className='date'><div className='month'>October</div>8th,2022</h3>
 
         </div>
       </div>

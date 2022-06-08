@@ -15,9 +15,9 @@ function App() {
     {/* <Navbar/> */}
     <Flex1/>
     <Flex2/>
-    <Speaker/>
-    <Venue/>
-    <Ticket/>
+    {/* <Speaker/> */}
+    {/* <Venue/> */}
+    {/* <Ticket/> */}
     <Sponsor/>
     <Footer/>
     </>

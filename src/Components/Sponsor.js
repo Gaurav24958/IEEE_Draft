@@ -4,13 +4,13 @@ export default function Sponsor() {
     return (
         <div className="mainsponsor">
 
-            <div className="uppersponsor">
+            {/* <div className="uppersponsor">
                 <h2 className="Sponsorhead">Sponsors</h2>
                 <div className="sponsorcoming">
                 <h2 >Coming soon...</h2>
                 </div>
                 
-            </div>
+            </div> */}
 
             <div className="lowersponsor">
                 <div className="touch">
